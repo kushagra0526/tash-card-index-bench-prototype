@@ -1,0 +1,64 @@
+{
+ "dev": {
+  "mean sale price": {
+   "corr": 0.311,
+   "rmse": 0.117,
+   "vol_ratio": 3.433,
+   "drawdown_ratio": 1.502,
+   "cum_err": 0.242
+  },
+  "median sale price": {
+   "corr": 0.239,
+   "rmse": 0.15,
+   "vol_ratio": 4.337,
+   "drawdown_ratio": 1.96,
+   "cum_err": 0.111
+  },
+  "last sale carried forward": {
+   "corr": 0.501,
+   "rmse": 0.032,
+   "vol_ratio": 0.522,
+   "drawdown_ratio": 1.27,
+   "cum_err": -0.457
+  },
+  "repeat sales": {
+   "corr": 0.871,
+   "rmse": 0.02,
+   "vol_ratio": 1.152,
+   "drawdown_ratio": 1.107,
+   "cum_err": -0.036
+  },
+  "_sales_per_month_mean": 90.6
+ },
+ "held_out": {
+  "mean sale price": {
+   "corr": 0.268,
+   "rmse": 0.114,
+   "vol_ratio": 3.219,
+   "drawdown_ratio": 1.35,
+   "cum_err": 0.213
+  },
+  "median sale price": {
+   "corr": 0.166,
+   "rmse": 0.185,
+   "vol_ratio": 5.092,
+   "drawdown_ratio": 1.762,
+   "cum_err": 0.186
+  },
+  "last sale carried forward": {
+   "corr": 0.303,
+   "rmse": 0.038,
+   "vol_ratio": 0.604,
+   "drawdown_ratio": 1.481,
+   "cum_err": -0.796
+  },
+  "repeat sales": {
+   "corr": 0.807,
+   "rmse": 0.027,
+   "vol_ratio": 1.259,
+   "drawdown_ratio": 1.122,
+   "cum_err": -0.004
+  },
+  "_sales_per_month_mean": 58.0
+ }
+}
